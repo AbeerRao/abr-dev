@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.icon {
+    @apply border-black bg-black text-[#daf464] p-3 rounded-full hover:bg-white text-4xl hover:cursor-pointer transition transform duration-200 ease-in-out;
+}
+
+.twitter {
+    @apply hover:text-[#1da1f2];
+}
+
+.linkedin {
+    @apply hover:text-[#0072b1];
+}
+
+.youtube {
+    @apply hover:text-[#ff0000];
+}
+
+.github {
+    @apply hover:text-[#000000];
+}
+
+.dev {
+    @apply hover:text-[#000000];
+}
