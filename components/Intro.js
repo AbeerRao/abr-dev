@@ -13,7 +13,7 @@ function Intro() {
     return (
         <div className={styles.container}>
             <div>
-                <p className={styles.heading}>WHY HELLO<br />THERE</p>
+                <p className={styles.heading}>HELLO<br />THERE</p>
                 <p className={styles.para}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis error nesciunt quasi ratione delectus. Excepturi esse harum autem voluptates dicta ea unde quasi deleniti modi, corporis culpa voluptatum voluptatem suscipit!</p>
             </div>
             <div>

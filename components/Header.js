@@ -8,7 +8,7 @@ function Header() {
         container: "bg-white sticky top-2 z-50 flex flex-1 w-full flex-row justify-between px-10 py-5 border-2 items-center rounded-3xl border-black",
         heading: "font-bold text-2xl hover:cursor-pointer hover:text-[#8455ff] transition transform duration-200 ease-in-out",
         text: "font-semibold text-lg hover:text-[#7b83eb] hover:cursor-pointer transition transform duration-200 ease-in-out",
-        progress: "w-full border-b-8 h-10 absolute top-10 border-b-[#54eaff] h-1 rounded-3xl transition transform duration-50"
+        progress: "w-11/12 border-b-8 h-20 top-0 rounded-3xl absolute border-b-[#54eaff] h-1 transition transform duration-50"
     }
 
     const completion = scrollProgress()

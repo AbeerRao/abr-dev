@@ -25,3 +25,11 @@
 .dev {
     @apply hover:text-[#000000];
 }
+
+.about-div {
+    @apply w-1/2 flex flex-col items-start px-10 py-20;
+}
+
+.logo {
+    @apply ml-10 text-2xl
+}
