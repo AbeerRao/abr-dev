@@ -6,6 +6,7 @@ import Socials from '../components/Socials'
 import About from '../components/About'
 import Skills from '../components/Skills'
 import Hobbies from '../components/Hobbies'
+import Works from '../components/Works'
 
 const Home: NextPage = () => {
 
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
       <About />
       <Skills />
       <Hobbies />
+      <Works />
     </div>
   )
 }
