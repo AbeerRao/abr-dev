@@ -22,7 +22,7 @@ function Skills() {
 
     const items = [
         {
-            name: "Cloud",
+            name: "Backend Dev",
             logo: SiLinux,
             barValue: "70%"
         },

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Hope For Saviour - Website",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolorum laborum voluptate similique ad ipsum deleniti necessitatibus quam dolorem praesentium officiis accusantium vel, consectetur hic delectus? Consequuntur vel deleniti architecto.",
+        "link": "Vineet Dhanda - Lawyer, Supreme Court of India",
+        "bg": "bg-layer1"
+    },
+    {
+        "name": "Various Projects",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolorum laborum voluptate similique ad ipsum deleniti necessitatibus quam dolorem praesentium officiis accusantium vel, consectetur hic delectus? Consequuntur vel deleniti architecto.Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "link": "Krish Ruparel - Founder, Kreview Technologies",
+        "bg": "bg-layer2"
+    },
+    {
+        "name": "Configuration Automation Software",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolorum laborum voluptate similique ad ipsum deleniti necessitatibus quam dolorem praesentium officiis accusantium vel, consectetur hic delectus? Consequuntur vel deleniti architecto.",
+        "link": "Rajiv Yadav - Global Demo Solutions, Erricson",
+        "bg": "bg-layer3"
+    },
+    {
+        "name": "Inventory Management Mobile App",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolorum laborum voluptate similique ad ipsum deleniti necessitatibus quam dolorem praesentium officiis accusantium vel, consectetur hic delectus? Consequuntur vel deleniti architecto.",
+        "link": "Dinesh Rao - Director, Samarth Enterprises",
+        "bg": "bg-layer4"
+    }
+]
