@@ -1,10 +1,11 @@
 import type { NextPage } from 'next'
+import Head from 'next/head'
 import Header from '../components/Header'
 import Intro from '../components/Intro'
 import Socials from '../components/Socials'
 import About from '../components/About'
 import Skills from '../components/Skills'
-import Head from 'next/head'
+import Hobbies from '../components/Hobbies'
 
 const Home: NextPage = () => {
 
@@ -22,6 +23,7 @@ const Home: NextPage = () => {
       <Socials />
       <About />
       <Skills />
+      <Hobbies />
     </div>
   )
 }

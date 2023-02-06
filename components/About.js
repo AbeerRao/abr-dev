@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
 
     const styles = {
-        container: "w-5/6 flex flex-1 divide-x-2 divide-black border-x-2 border-b-2 border-black",
+        container: "w-3/4 flex flex-1 divide-x-2 divide-black border-x-2 border-b-2 border-black",
         left: "about-div px-10 bg-[#ffcbfa]",
         right: "about-div px-10 bg-[#7e51ff] text-white",
         heading: "font-bold text-4xl",

@@ -4,7 +4,7 @@ import { FaTwitter, FaLinkedin, FaYoutube, FaDev, FaGithub } from "react-icons/f
 function Socials() {
 
     const styles = {
-        container: "w-5/6 bg-[#daf464] mt-24 py-5 flex flex-1 flex-row justify-around border-2 border-black items-center",
+        container: "w-3/4 bg-[#daf464] mt-40 py-5 flex flex-1 flex-row justify-around border-2 border-black items-center",
     }
 
     return (

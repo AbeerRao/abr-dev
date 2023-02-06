@@ -1,28 +1,30 @@
 import Image from 'next/image'
-import React, { useState } from 'react'
+import React from 'react'
 import picture from "../assets/work.png"
-import { SiJavascript, SiReact, SiPython, SiHtml5, SiCss3 } from "react-icons/si"
+import { SiLinux, SiReact, SiPython, SiHtml5, SiCss3 } from "react-icons/si"
+import { BsPhone } from "react-icons/bs"
 
 function Skills() {
 
     const styles = {
-        main: "mt-24 flex flex-col items-center space-y-5 w-3/4",
-        heading: "font-bold w-full flex justify-center text-5xl bg-[#d7fc70] px-5 py-2 border-2 border-black",
+        main: "mt-40 flex flex-col items-center w-3/4",
+        heading: "mb-10 font-bold w-full flex justify-center text-5xl bg-[#d7fc70] px-5 py-2 border-2 border-black",
         container1: "flex flex-1 flex-row justify-between items-center space-x-5",
         text: "tracking-widest text-lg",
         container2: "flex flex-col items-start space-y-10 w-full",
         skillBox: "grid grid-cols-2 w-full gap-7",
         skill: "flex flex-col items-start space-y-1 w-full",
-        name: "font-bold flex w-1/2 justify-between",
+        progressContainer: "border-2 border-black w-full",
+        name: "font-bold flex w-full justify-between",
         icon: "logo",
         bar: "bg-[#7e51ff] h-2.5"
     }
 
     const items = [
         {
-            name: "JavaScript",
-            logo: SiJavascript,
-            barValue: "90%"
+            name: "Cloud",
+            logo: SiLinux,
+            barValue: "70%"
         },
         {
             name: "ReactJS",
@@ -32,23 +34,24 @@ function Skills() {
         {
             name: "Python",
             logo: SiPython,
-            barValue: "95%"
+            barValue: "90%"
         },
         {
             name: "HTML",
             logo: SiHtml5,
-            barValue: "100%"
+            barValue: "95%"
         },
         {
             name: "CSS",
             logo: SiCss3,
             barValue: "80%"
+        },
+        {
+            name: "Mobile Dev",
+            logo: BsPhone,
+            barValue: "60%"
         }
     ]
-
-    {items.map((item) => {
-        console.log(item)
-    })}
 
     return (
         <div className={styles.main}>
@@ -64,9 +67,11 @@ function Skills() {
                     <div className={styles.skillBox}>
                         {
                             items.map((item) => (
-                                <div className={styles.skill}>
+                                <div className={styles.skill} key={item.name}>
                                     <p className={styles.name}>{item.name} <item.logo className={styles.icon} /></p>
-                                    <div className={styles.bar} style={{ width: item.barValue }}></div>
+                                    <div className={styles.progressContainer}>
+                                        <div className={styles.bar} style={{ width: item.barValue }}></div>
+                                    </div>
                                 </div>
                             ))
                         }
