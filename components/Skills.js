@@ -8,7 +8,7 @@ function Skills() {
 
     const styles = {
         main: "mt-40 flex flex-col items-center w-3/4",
-        heading: "mb-10 font-bold w-full flex justify-center text-5xl bg-[#d7fc70] px-5 py-2 border-2 border-black",
+        heading: "mb-10 font-bold w-full flex justify-start text-6xl px-5 py-2 shadow-heading2",
         container1: "flex flex-1 flex-row justify-between items-center space-x-5",
         text: "tracking-widest text-lg",
         container2: "flex flex-col items-start space-y-10 w-full",

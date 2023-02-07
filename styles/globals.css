@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-intro {
+    /* background-image: url("../assets/bg-intro.svg"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .icon {
-    @apply border-black bg-black text-[#daf464] p-3 rounded-full hover:bg-white text-4xl hover:cursor-pointer transition transform duration-200 ease-in-out;
+    @apply border-black bg-black text-white p-3 rounded-full hover:bg-white text-4xl hover:cursor-pointer transition transform duration-200 ease-in-out border-2;
 }
 
 .twitter {
@@ -34,6 +40,13 @@
     @apply ml-10 text-2xl
 }
 
+.bg-hob {
+    /* background-image: url("../assets/bg-hob.svg"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .paper {
     background: #fff;
     box-shadow:
@@ -45,7 +58,11 @@
 }
 
 .shadow-heading {
-    text-shadow: 3px 3px 0px #d7fc70;
+    text-shadow: 4px 4px 0px #d7fc70;
+}
+
+.shadow-heading2 {
+    text-shadow: 3px 3px 0px #ff9431;
 }
 
 .bg-layer1, .bg-layer2, .bg-layer3, .bg-layer4 {

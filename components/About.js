@@ -3,9 +3,9 @@ import React from 'react'
 function About() {
 
     const styles = {
-        container: "w-3/4 flex flex-1 divide-x-2 divide-black border-x-2 border-b-2 border-black",
-        left: "about-div px-10 bg-[#ffcbfa]",
-        right: "about-div px-10 bg-[#7e51ff] text-white",
+        container: "mt-40 rounded-3xl w-3/4 flex flex-1 divide-x-2 divide-black border-2 border-black",
+        left: "about-div px-10 bg-[#ffcbfa] rounded-l-3xl",
+        right: "about-div px-10 bg-[#7e51ff] text-white rounded-r-3xl",
         heading: "font-bold text-4xl",
         para: "leading-relaxed text-lg mt-10"
     }

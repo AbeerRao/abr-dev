@@ -6,9 +6,9 @@ import hobbiesData from "../hobbies.json"
 export default function Hobbies() {
 
     const styles = {
-        main: "mt-40 h-max w-full flex flex-col items-center px-10 py-10 bg-gray-100",
+        main: "mt-40 h-max w-full flex flex-col items-center px-10 py-12 bg-hob",
         textContainer: "flex flex-row items-center space-x-2",
-        heading: "font-bold text-4xl rotate-90 text-[#fd693f]",
+        heading: "font-bold text-5xl rotate-90 shadow-heading2",
         para: "tracking-widest text-lg",
         bigDaddy: "flex flex-1 items-start space-x-10 w-full justify-between mt-20",
         list: "flex flex-col space-y-5",
@@ -16,7 +16,7 @@ export default function Hobbies() {
         contentHeading: "font-bold text-xl",
         contentPara: "tracking-widest",
         keySection: "border-2 border-black paper w-1/3 px-5 py-3",
-        activeText: "font-bold text-2xl cursor-pointer text-[#8455ff]",
+        activeText: "font-bold text-2xl cursor-pointer underline underline-offset-4",
         listName: "text-gray-600 font-bold text-2xl cursor-pointer",
         keyHeading: "text-[#8455ff] font-bold text-xl mb-5"
     }

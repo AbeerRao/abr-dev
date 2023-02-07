@@ -7,11 +7,12 @@ import About from '../components/About'
 import Skills from '../components/Skills'
 import Hobbies from '../components/Hobbies'
 import Works from '../components/Works'
+import Contact from '../components/Contact'
 
 const Home: NextPage = () => {
 
   const styles = {
-    mainContainer: "flex flex-col items-center py-5"
+    mainContainer: "flex bg-gray-50 flex-col items-center py-5 bg-intro" 
   }
 
   return (
@@ -26,6 +27,7 @@ const Home: NextPage = () => {
       <Skills />
       <Hobbies />
       <Works />
+      <Contact />
     </div>
   )
 }
